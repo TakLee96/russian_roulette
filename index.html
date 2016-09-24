@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Russian Roulette</title>
+    <style type="text/css">
+        .hidden { display: none; }
+    </style>
+</head>
+<body>
+    <div id="user">
+        <input type="text" id="name" placeholder="username">
+        <input type="password" id="password" placeholder="password">
+        <button id="signup">sign up</button>
+        <button id="login">log in</button>
+    </div>
+
+    <div id="find" class="hidden">
+        <div id="myid"></div>
+        <input type="text" id="oppo" placeholder="opponent userid">
+        <button id="kill">kill him!</button>
+    </div>
+
+    <div id="game" class="hidden">
+        <div id="sb"></div>
+        <button id="st">shoot!</button>
+    </div>
+    <script src="//code.skygear.io/js/polyfill/latest/polyfill.min.js"></script>
+    <script src="//code.skygear.io/js/skygear/latest/skygear.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
